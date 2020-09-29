@@ -17,5 +17,21 @@ example:
 Enter a number: 48
 48 is frue.
 """
-
 #! python3
+import math
+a=input("Enter a number")
+a=int(a)
+b=a/6
+c=a/8
+d=math.floor(b)
+e=math.floor(c)
+if b==d and c==e:
+    a=str(a)
+    print(a+" is not frue.")
+elif b==d:
+    a=str(a)
+    print(a+" is frue.")
+else:
+    a=str(a)
+    print(a+" is not frue.")
+
