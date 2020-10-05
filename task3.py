@@ -14,7 +14,7 @@ xx is not a positive integer
 example:
 Enter a number: -3
 -3 is not a positive integer
-"""
+
 a=input("Enter a number")
 a=int(a)
 if a>0 or a==0:
