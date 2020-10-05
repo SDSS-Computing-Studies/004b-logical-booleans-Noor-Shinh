@@ -1,10 +1,9 @@
 
-
-a=input("Enter a number")
-a=int(a)
-if a>0 or a==0:
-    a=str(a)
-    print( a+" is a positive integer")
-if a<0:
-    a=str(a)
-    print(a + " is not a positive integer")
+num=input("Enter a number")
+num=int(num)
+if num>0 or num==0:
+    num=str(num)
+    print( num+" is a positive integer")
+elif num<0:
+    num=str(num)
+    print(num+ " is not a positive integer")
