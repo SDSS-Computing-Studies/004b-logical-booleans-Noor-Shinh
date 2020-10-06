@@ -39,8 +39,8 @@ if a>(b and c):
     y=math.pow(b,2)
     z=math.pow(a,2)
 elif b>(a and c):
-    x=math.pow(c,2)
-    y=math.pow(a,2)
+    x=math.pow(a,2)
+    y=math.pow(c,2)
     z=math.pow(b,2)
 elif c>(a and b):
     x=math.pow(a,2)
