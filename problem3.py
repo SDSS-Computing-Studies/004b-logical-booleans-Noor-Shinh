@@ -48,9 +48,12 @@ elif c>(a and b):
     z=math.pow(c,2)
 
 if z==(y+x):
-    a=str(a)
-    b=str(b)
-    c=str(c)
-    print(a, b, c +" form a Pythagorean triple")
+    z=int(z)
+    z=str(z)
+    y=str(y)
+    y=int(y)
+    x=int(x)
+    x=str(x)
+    print( x,y,z+" form a Pythagorean triple")
 elif z<(y+z) or z>(y+x):
     print(" do not form a Pythagorean triple")
